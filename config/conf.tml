@@ -13,8 +13,8 @@ url = "selenium-hub-4444-atas-selenium-hub.jpe1-caas1-dev1.caas.jpe1a.r-local.ne
 [atas]
 ip = "10.13.69.44"
 port = "8088"
-auth-key = "63b524cb84ae4a7e15596da3"
-launch = "ATAS-E2E-DEMO"
+auth-key = "6421a4b084ae16b2a41444c8"
+launch = "ATAS-GITHUB-DEMO"
 executor = "Ding Tao"
 uri = "https://cntd-autotest-aas.rakuten-it.com"
 
