@@ -1,0 +1,96 @@
+[data]
+data_json = "/data/data.json"
+data_excel = "/data/atas-data.xlsx"
+
+[result]
+screen_path = "/screen/"
+
+[grid]
+ip = "127.0.0.1"
+port = "4444"
+url = "elenium-hub-4444-atas-auto-env.jpe1-caas1-dev1.caas.jpe1a.r-local.net"
+
+[atas]
+ip = "127.0.0.1"
+port = "8099"
+collection = "ATAS-AUTO-PROJECT"
+launch = "Spring1"
+
+[logs]
+path = "/logs/business.log"
+level = "info"
+rotation = "H"
+backup = 5
+
+[report]
+if_report_portal = "True"
+if_report_atas = "True"
+
+[proxy]
+if_proxy = "True"
+ip = "pdev.prod.jp.local"
+port = "14001"
+
+[ios]
+app_server="127.0.0.1"
+app_port="4724"
+platformName="ios"
+deviceName="丁涛的 iPhone"
+udid="00008020-000E4C8C01E1802E"
+automationName="XCUITest"
+#bundleId="com.rakuten.travel.consumer"
+bundleId="jp.edy.nfcapp"
+xcodeOrgId="dingtao888@163.com"
+xcodeSigningId="iPhone Developer"
+noReset="true"
+shouldTerminateApp="true"
+
+[android]
+app_server="127.0.0.1"
+app_port="4723"
+platformName="android"
+deviceName="R58M82NTS1B"
+appPackage="com.rakuten.travel.consumer"
+appActivity=".view.activity.SplashActivity"
+noReset="true"
+chromeOptions="{\"androidProcess\":\"com.sec.android.app.sbrowser\"}"
+
+[android_kobiton]
+kobitonServerUrl="https://tao.ding:e65b38ff-33ba-44a3-b247-1f6606acce41@api.kobiton.com/wd/hub"
+sessionName="Automation test session"
+deviceOrientation="portrait"
+noReset="1"
+fullReset=""
+captureScreenshots="1"
+app="kobiton-store:v358585"
+groupId="3932"
+deviceGroup="ORGANIZATION"
+deviceName="OPPO CPH2309"
+platformName="Android"
+platformVersion="11"
+appPackage="jp.co.rakuten.pointpartner.app"
+appActivity=".ui.launch.SplashScreenActivity"
+
+[ios_kobiton]
+kobitonServerUrl="https://tao.ding:e65b38ff-33ba-44a3-b247-1f6606acce41@api.kobiton.com/wd/hub"
+sessionName="Automation test session"
+sessionDescription=""
+deviceOrientation="portrait"
+noReset="1"
+fullReset=""
+captureScreenshots="1"
+groupId="3932"
+deviceGroup="ORGANIZATION"
+deviceName="iPhone SE (2nd generation)"
+platformName="iOS"
+platformVersion="14.8.1"
+bundleId="jp.edy.nfcapp"
+
+[android_debug]
+app_server="127.0.0.1"
+app_port="4723"
+platformName="android"
+deviceName="R58M82NTS1B"
+appPackage="jp.co.rakuten.pointpartner.app"
+appActivity=".ui.launch.SplashScreenActivity"
+noReset="true"

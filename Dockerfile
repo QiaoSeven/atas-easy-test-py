@@ -1,0 +1,1 @@
+FROM registry-jpe1.r-local.net/atas-auto-execution/python:3.9.13.1

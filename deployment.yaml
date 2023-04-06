@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auto-env
+  labels: {}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: auto-env
+  template:
+    metadata:
+      labels:
+        app: auto-env
+    spec:
+      containers:
+        - name: auto-env
+          image: 'registry-jpe1.r-local.net/atas-auto-execution/python:3.9.13.1'
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: 1
+              memory: 1Gi
+            requests:
+              cpu: 1
+              memory: 1Gi
+      serviceAccount: tenant-pod-root
+      automountServiceAccountToken: true

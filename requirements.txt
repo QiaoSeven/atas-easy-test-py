@@ -1,0 +1,14 @@
+Appium_Python_Client==2.7.1
+numpy==1.23.0
+opencv_python_headless==4.6.0.66
+openpyxl==3.0.10
+Pillow==9.3.0
+pytest==7.1.2
+reportportal_client==5.2.3
+requests==2.28.1
+selenium==4.6.0
+toml==0.10.2
+pytest-reportportal==5.1.2
+Appium-Python-Client~=2.7.1
+atas_client==0.0.3
+pytest-html==3.2.0
